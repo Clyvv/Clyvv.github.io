@@ -1,333 +1,540 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-
+<head>
+    <!-- Meta -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>World Trade Networks</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML, CSS, JS, Template">
+    <meta name="author" content="Revol Themes">
+    <title>PrinceLaura</title>
+    <!-- Favicons -->
+    <link rel="icon" href="assets/images/logo.png">
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Rouge+Script|Open+Sans:400,600,700" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Normalization -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <!-- Custom CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
 
-    <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
-    <!-- Custom styles for this template -->
-    <link href="css/agency.min.css" rel="stylesheet">
-
-  </head>
-
-  <body id="page-top">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-primary" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">World Trade Networks</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav text-uppercase ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#team">Our Team</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li>
-          </ul>
+<body data-spy="scroll" data-target=".navbar" data-offset="56">
+    <!-- Navigation Menu -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-toggleable-md bg-white">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="fa fa-navicon fa-lg"></span>
+				</button>
+            <a class="smoothscroll navbar-brand" href="#home"><img src="assets/images/logo.png" alt="logo"></a>
+            <div class="collapse navbar-collapse flex-row-reverse" id="mainNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="smoothscroll nav-link" href="#home">home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="smoothscroll nav-link" href="#about">about us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="smoothscroll nav-link" href="#history">our history</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="smoothscroll nav-link" href="#when-where">When & Where</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="smoothscroll nav-link" href="#people">peoples</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="smoothscroll nav-link" href="#contact">contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
     </nav>
 
-    <!-- Header -->
-    <header class="masthead" id="home">
-      <div class="container">
-        <div class="intro-text">
-          <div class="intro-lead-in"><span class="masthead-text">Welcome to</span></div>
-          <div class="intro-heading text-uppercase"><span class="masthead-text">World Trade Networks Pty Ltd</span></div>
-          <p class="intro-lead-out"><span class="masthead-text">'We go above and beyond'</span></p>
-        </div>
-      </div>
-    </header>
 
-     <!-- About -->
-     <section id="about">
+    <!-- Slider -->
+    <div id="home"></div>
+    <div class="main-slider">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
+                </li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="slider-image" src="assets/images/slider2.jpg" alt="First slide">
+                    <div class="carousel-caption">
+                        <div class="underlay"></div>
+                        <div class="content">
+                            <img class="slider-content" src="assets/images/slider_content.png" />
+                            <p>
+                                On 13 April 2019, we are getting married. 
+                            </p>
+                            <a href="#when-where" class="smoothscroll btn btn-light">When and Where</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="slider-image" src="assets/images/slider1.jpg" alt="Second slide">
+                    <div class="carousel-caption ">
+                        <div class="underlay"></div>
+                        <div class="content">
+                            <img class="slider-content" src="assets/images/slider_content.png" />
+                            <div class="container">
+                                <div class="row text-center allInOne">
+                                    <div class="col-12 wow tada">
+                                        <h1 id="all"></h1>
+                                        <h5>D : H : M : S</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="slider-image" src="assets/images/slider3.jpg" alt="Third slide">
+                    <div class="carousel-caption ">
+                        <div class="underlay"></div>
+                        <div class="content">
+                            <img class="slider-content" src="assets/images/slider_content.png" />
+                            <p>
+                                Thank you so much for visiting our wedding website! We are so excited to celebrate our special day with our family and friends. This website contains wedding day details, travel information, and much more - keep scrolling!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+
+    <!-- About Us -->
+    <div id="about"></div>
+    <section class="about-us">
         <div class="container">
-          <div class="row">
-            <div class="col-lg-12 text-center">
-              <h2 class="section-heading text-uppercase">About</h2>
-              <p class="section-subheading text-muted">Established in 2017, World Trade Networks is a 100% blackowned firm with directors having extensive experiences in different fields.</p>
-              <p>World Trade Networks is a dynamic company which focuses on facilitating trade across Africa. We offer a broad spectrum of services through our highly competent consultants customized to suit your specific business request.Our primary focus involves facilitating order financing, import and export services, shipping and clearing services and also advisory services to companies who would like to pursue business adventures in Zimbabwe, South Africa and Botswana. We have partnered with different organisations to provide you with the best solution.</p>
+            <div class="row text-center">
+                <div class="col col-sm-12">
+                    <h1 class="heading"><span>about us</span></h1>
+                    <p class="sub-heading">Welcome to our wedding website.  Here is some information about us</p>
+                </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-    <!-- Services -->
-    <section id="services">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Services</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-          </div>
-        </div>
-        <div class="row text-center">
-          <div class="col-xs-6 col-md-3">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-money fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">Order Financing</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-          </div>
-          <div class="col-xs-6 col-md-3">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-exchange fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">Import and Export</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-          </div>
-          <div class="col-xs-6 col-md-3">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-ship fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">Shipping and Clearing</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-          </div>
-
-          <div class="col-xs-6 col-md-3">
-              <span class="fa-stack fa-4x">
-                <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                <i class="fa fa-question fa-stack-1x fa-inverse"></i>
-              </span>
-              <h4 class="service-heading">Advisory Services</h4>
-              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <div class="row justify-content-center text-center">
+                <div class="col-12 col-sm-10 wow slideInDown">
+                    <img src="assets/images/about-us.jpg" class="img-fluid">
+                </div>
             </div>
-        </div>
-      </div>
-    </section>
 
-   
-
-    <!-- Team -->
-    <section class="bg-light" id="team">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
-              <h4>Oswell Manjengwa</h4>
-              <p class="text-muted">Chief Executive Officer</p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="https://www.facebook.com/omanjengwa">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-linkedin"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
-              <h4>Ncebi Manjengwa</h4>
-              <p class="text-muted">Chief Operations Officer</p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="https://www.facebook.com/ncebi.manjengwa">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-linkedin"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
-              <h4>Clive T Mawoko</h4>
-              <p class="text-muted">Lead Developer</p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="https://twitter.com/ClyvvVanMaponda">
-                    <i class="fa fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="https://www.facebook.com/clyvv.maponda">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="https://www.linkedin.com/in/clive-tinashe-mawoko-76035b44/">
-                    <i class="fa fa-linkedin"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact -->
-    <section id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Contact Us</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-          </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 col-md-4">
-                <div class="box">							
-                    <div class="icon">
-                        <div class="image"><i class="fa fa-envelope" aria-hidden="true"></i></div>
-                        <div class="info pt-5">
-                            <h3 class="title">MAIL &amp; WEBSITE</h3>
-                            <p>
-                                <i class="fa fa-envelope" aria-hidden="true"></i> &nbsp; info@worldtradenetworks.net 
-                                <br>
-                                <i class="fa fa-globe" aria-hidden="true"></i> &nbsp; worldtradenetworks.net
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-md-6 groom wow slideInLeft">
+                            <h3>Prince Tapiwa Mapfeka</h3>
+                            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p class="social-links">
+                                <a href=""><i class="fa fa-facebook fa-lg"></i></a>
+                                <a href=""><i class="fa fa-twitter fa-lg"></i></a>
+                                <a href=""><i class="fa fa-instagram fa-lg"></i></a>
                             </p>
+                        </div>
+                        <div class="col-12 col-md-6 bride wow slideInRight">
+                            <h3>Laura Cathrine Mufandaedza</h3>
+                            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p class="social-links">
+                                <a href=""><i class="fa fa-facebook fa-lg"></i></a>
+                                <a href=""><i class="fa fa-twitter fa-lg"></i></a>
+                                <a href=""><i class="fa fa-instagram fa-lg"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- History -->
+    <div id="history"></div>
+    <section class="our-history">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col col-sm-12">
+                    <h1 class="heading"><span>our history</span></h1>
+                    <p class="sub-heading">Here is our story, how we met until the engagement night</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 text-center">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-10 wow fadeInRight">
+                            <div class="image-card">
+                                <div class="card">
+                                    <img class="card-img-top" src="assets/images/card-1.jpg" alt="Card image cap">
+                                    <div class="card-body circle">
+                                        <h4 class="card-title">first meet each other</h4>
+                                        <p class="card-text">"So he used to stalk me during his lunchtime maTM and this day he actually came kuKFC kwatanga tiri ne my friend Nyasha and he wanted to see me so bad. And I also wanted Nyasha to see the guy who was nagging me and evaluate if he was worth the chance so we had to take a selfie 🤳 inorder to carefully assess."</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         
+                        <div class="col-12 col-md-10 wow fadeInRight">
+                            <div class="image-card">
+                                <div class="card">
+                                    <img class="card-img-top" src="assets/images/card-3.jpg" alt="Card image cap">
+                                    <div class="card-body circle">
+                                        <h4 class="card-title">proposal of marriage</h4>
+                                        <p class="card-text">The European languages are members of the same family. Their srate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation
+                                            and their most common words. Everyone realizes why.</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="space"></div>
-                </div> 
+                </div>
+                <div class="col-12 col-md-6 text-center right-panel topping">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-10 wow fadeInLeft">
+                            <div class="image-card">
+                                <div class="card">
+                                    <img class="card-img-top" src="assets/images/card-4.jpg" alt="Card image cap">
+                                    <div class="card-body circle2">
+                                        <h4 class="card-title">proposal of love</h4>
+                                        <p class="card-text">The European languages are members of the same family. Their srate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation
+                                            and their most common words. Everyone realizes why.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-12 col-md-10 wow fadeInLeft">
+                            <div class="image-card last">
+                                <div class="card">
+                                    <img class="card-img-top" src="assets/images/card-6.jpg" alt="Card image cap">
+                                    <div class="card-body circle2">
+                                        <h4 class="card-title">our lovely engagemant</h4>
+                                        <p class="card-text">The European languages are members of the same family. Their srate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation
+                                            and their most common words. Everyone realizes why.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-                
-            <div class="col-xs-12 col-md-4">
-                <div class="box">							
-                    <div class="icon">
-                        <div class="image"><i class="fa fa-mobile" aria-hidden="true"></i></div>
-                        <div class="info pt-5">
-                            <h3 class="title">CONTACT</h3>
-                            <p>
-                                <i class="fa fa-mobile" aria-hidden="true"></i> &nbsp; +27116780571
-                                <br>
-                                <i class="fa fa-fax" aria-hidden="true"></i> &nbsp;  +27862424813
-                            </p>
-                        </div>
-                    </div>
-                    <div class="space"></div>
-                </div> 
-            </div>
-                
-            <div class="col-xs-12 col-md-4">
-                <div class="box">							
-                    <div class="icon">
-                        <div class="image"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                        <div class="info pt-5">
-                            <h3 class="title">ADDRESS</h3>
-                            <p>
-                                    <i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp; Unit 1 Margaret Gardens, 13 Princes avenue, Windsor West, Johannesburg, 2194
-                            </p>
-                        </div>
-                    </div>
-                    <div class="space"></div>
-                </div> 
-            </div>		                                    
         </div>
-      </div>
     </section>
 
-    <!-- Footer -->
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <span class="copyright">Copyright &copy; World Trade Networks Pty Ltd 2017</span>
-          </div>
-          <div class="col-md-4">
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-facebook"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-linkedin"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
+    <!-- Blog -->
+    <div id="when-where"></div>
+    <section class="latest-blog">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col col-sm-12">
+                    <h1 class="heading"><span>When & Where</span></h1>
+                    <p class="sub-heading">Please save the date and directions</p>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <div class="image-overlay"></div>
+                        <a href=""><i class="fa fa-external-link fa-2x"></i></a>
+                        <img class="card-img-top" src="assets/images/blog-image-1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">But I must explain to you serenity has taken how all this mistaken of denouncing..</p>
+                        </div>
+                    </div>
+                    <div class="text-overlay wow bounceInLeft">
+                        <p>April 13th, 2019</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <!-- Google Map -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233668.3870397137!2d90.2792381917259!3d23.780573256485233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1513666665101"
+    height="230" frameborder="0" style="border:0;width:100%" allowfullscreen></iframe>
+                        <!-- <div class="image-overlay"></div>
+                        <a href=""><i class="fa fa-external-link fa-2x"></i></a>
+                        <img class="card-img-top" src="assets/images/blog-image-2.jpg" alt="Card image cap"> -->
+                        <div class="card-body">
+                            <p class="card-text">Which of us ever undertakes laborir physcal exercise serenity has taken except..</p>
+                        </div>
+                    </div>
+                    <!-- <div class="text-overlay wow bounceInUp">
+                        <p>December 5th, 2016</p>
+                    </div> -->
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <div class="image-overlay"></div>
+                        <a href=""><i class="fa fa-external-link fa-2x"></i></a>
+                        <img class="card-img-top" src="assets/images/blog-image-3.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">A wonderful serenity has taken possession of my entire soul like..</p>
+                        </div>
+                    </div>
+                    <div class="text-overlay wow bounceInRight">
+                        <p>April 13th, 2019</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+    </section>
+
+    <!-- Counter -->
+    <section class="counter">
+        <div class="container">
+            <div class="row text-center individual">
+                <div class="col-3 wow tada">
+                    <img src="assets/images/count-number-bg.png" alt="Counter Background">
+                    <h1 id="days"></h1>
+                    <h5>Days</h5>
+                </div>
+                <div class="col-3 wow tada">
+                    <img src="assets/images/count-number-bg.png"  alt="Counter Background">
+                    <h1 id="hours"></h1>
+                    <h5>Hours</h5>
+                </div>
+                <div class="col-3 wow tada">
+                    <img src="assets/images/count-number-bg.png" alt="Counter Background">
+                    <h1 id="minutes"></h1>
+                    <h5>Minutes</h5>
+                </div>
+                <div class="col-3 wow tada">
+                    <img src="assets/images/count-number-bg.png" alt="Counter Background">
+                    <h1 id="seconds"></h1>
+                    <h5>Seconds</h5>
+                </div>
+            </div>
+            <div class="row text-center allInOne">
+                <div class="col-12 wow tada">
+                    <img src="assets/images/count-number-bg.png" alt="Counter Background">
+                    <h1 id="all"></h1>
+                    <h5>D : H : M : S</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- People -->
+    <div id="people"></div>
+    <section class="people">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col col-sm-12">
+                    <h1 class="heading"><span>groomsmen &amp; bridesmaids</span></h1>
+                    <p class="sub-heading">Our lovely bridal team</p>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-12 col-md-3 wow zoomIn">
+                    <div class="card">
+                        <div class="overlay"></div>
+                        <img class="card-img-top" height="280px" src="assets/images/mpinch.jpg" alt="Mpinch">
+                        <div class="card-body">
+                            <h5 class="card-text">Mpinch</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 wow zoomIn" data-wow-delay=".1s">
+                    <div class="card">
+                        <div class="overlay"></div>
+                        <img class="card-img-top" height="280px" src="assets/images/fungi.jpg" alt="Fungie">
+                        <div class="card-body">
+                            <h5 class="card-text">Fungie</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 wow zoomIn" data-wow-delay=".2s">
+                    <div class="card">
+                        <div class="overlay"></div>
+                        <img class="card-img-top" height="280px" src="assets/images/gift.jpg" alt="Gift">
+                        <div class="card-body">
+                            <h5 class="card-text">Gift</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 wow zoomIn" data-wow-delay=".3s">
+                    <div class="card">
+                        <div class="overlay"></div>
+                        <img class="card-img-top" height="280px" src="assets/images/pepe.jpg" alt="Pepe">
+                        <div class="card-body">
+                            <h5 class="card-text">Pepe</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 wow zoomIn">
+                    <div class="card">
+                        <div class="overlay"></div>
+                        <img class="card-img-top" height="286px" src="assets/images/patty.jpg" alt="Patty">
+                        <div class="card-body">
+                            <h5 class="card-text">Patty</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 wow zoomIn" data-wow-delay=".1s">
+                    <div class="card">
+                        <div class="overlay"></div>
+                        <img class="card-img-top" height="286px" src="assets/images/melissa.jpg" alt="Melissa">
+                        <div class="card-body">
+                            <h5 class="card-text">Melissa</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 wow zoomIn" data-wow-delay=".2s">
+                    <div class="card">
+                        <div class="overlay"></div>
+                        <img class="card-img-top" height="286px" src="assets/images/shanko.jpg" alt="Shanko">
+                        <div class="card-body">
+                            <h5 class="card-text">Shanko</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 wow zoomIn" data-wow-delay=".3s">
+                    <div class="card">
+                        <div class="overlay"></div>
+                        <img class="card-img-top" height="286px" src="assets/images/bella.jpg" alt="Bella">
+                        <div class="card-body">
+                            <h5 class="card-text">Bella</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-3 wow zoomIn" height="280px" data-wow-delay=".3s">
+                    <div class="card">
+                        <div class="overlay"></div>
+                        <img class="card-img-top" height="280px" src="assets/images/batsi.jpg" alt="Batsi">
+                        <div class="card-body">
+                            <h5 class="card-text">Batsi</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 wow zoomIn" data-wow-delay=".3s">
+                    <div class="card">
+                        <div class="overlay"></div>
+                        <img class="card-img-top" height="280px" src="assets/images/fay.jpg" alt="Fay">
+                        <div class="card-body">
+                            <h5 class="card-text">Fay</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 wow zoomIn" data-wow-delay=".3s">
+                    <div class="card">
+                        <div class="overlay"></div>
+                        <img class="card-img-top" height="280px" src="assets/images/doc_zeph.jpg" alt="Doc Zeph">
+                        <div class="card-body">
+                            <h5 class="card-text">Doc Zeph</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 wow zoomIn" data-wow-delay=".3s">
+                    <div class="card">
+                        <div class="overlay"></div>
+                        <img class="card-img-top" height="280px" src="assets/images/rati.jpg" alt="Rati">
+                        <div class="card-body">
+                            <h5 class="card-text">Rati</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Contact Us -->
+    <div id="contact"></div>
+    <section class="contact">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col col-sm-12">
+                    <h1 class="heading"><span>are you attending</span></h1>
+                    <p class="sub-heading">Our wedding is strictly by RSVP.  Please drop us a message if you are attending.<br>
+                    You can also call on these numbers: 0779 264 344 | 0772 746 033 | 0739 851 302 | 0779 308 840</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-sm-12">
+                    <div class="contact-form justify-content-center">
+                        <form id="rsvp-form">
+                            <div class="form-row">
+                                <div class="form-group col-md-6 wow slideInLeft">
+                                    <input type="email" class="form-control" id="email" placeholder="Email">
+                                </div>
+                                <div class="form-group col-md-6 wow slideInRight">
+                                    <input type="text" class="form-control" id="fullName" placeholder="Fullname">
+                                </div>
+                            </div>
+                           
+                            <div class="form-row">
+                                <div class="form-group col-md-12 wow slideInUp">
+                                    <textarea rows="6" class="form-control" id="message" placeholder="Message..."></textarea>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-sm-4 col-lg-3 col-xl-2 wow slideInUp">
+                                    <button  type="submit" class="btn btn-light btn-block">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row justify-content-center footer-menu">
+                <div class="col col-sm-12">
+                    <ul class="list-inline text-center">
+                        <li class="list-inline-item wow fadeIn" data-wow-delay="0.7s">
+                            <a class="smoothscroll" href="#home">home</a>
+                        </li>
+                        <li class="list-inline-item wow fadeIn" data-wow-delay="0.6s">
+                            <a class="smoothscroll" href="#about">about us</a>
+                        </li>
+                        <li class="list-inline-item wow fadeIn" data-wow-delay="0.5s">
+                            <a class="smoothscroll" href="#history">our history</a>
+                        </li>
+                        <li class="list-inline-item wow fadeIn" data-wow-delay="0.3s">
+                            <a class="smoothscroll" href="#people">peoples</a>
+                        </li>
+                        <li class="list-inline-item wow fadeIn" data-wow-delay="0.1s">
+                            <a class="smoothscroll" href="#when-where">when & where</a>
+                        </li>
+                        <li class="list-inline-item wow fadeIn">
+                            <a class="smoothscroll" href="#contact">contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright-section">
+                <p class="text-center">&copy; 2019 all rights reserved</p>
+            </div>
+        </div>
     </footer>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="assets/js/jquery.mixitup.min.js"></script>
+    <script src="assets/js/script.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Contact form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/agency.min.js"></script>
-
-  </body>
+</body>
 
 </html>
