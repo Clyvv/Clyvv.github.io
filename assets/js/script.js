@@ -1,4 +1,3 @@
-var nodemailer = require('./lib/nodemailer/lib');
 $(document).ready(function() {
 
     // Add smooth scrolling to all links
@@ -59,31 +58,6 @@ $(document).ready(function() {
           res => alert(res)
         );
 
-        // //var nodemailer = require('nodemailer');
-
-        // var transporter = nodemailer.createTransport({
-        //     host: "mail.princeandlaura.com",
-        //     port: 587,
-        //     secure: false, // upgrade later with STARTTLS
-        //     auth: {
-        //       user: "us@princeandlaura.com",
-        //       pass: "muchatowedu"
-        //     }
-        //   });
-
-        //   const mailOptions = {
-        //     from: email, // sender address
-        //     to: 'cmawoko@gmail.com', // list of receivers
-        //     subject: `RSVP for ${fullName}`, // Subject line
-        //     html: `<p>${message}</p>`// plain text body
-        //   };
-
-        //   transporter.sendMail(mailOptions, function (err, info) {
-        //     if(err)
-        //       console.log(err)
-        //     else
-        //       console.log(info);
-        //  });
         return false;
     }
     
