@@ -1,6 +1,9 @@
 <?php 
 header('Content-Type: application/json');
+header('Access-Control-Allow-Origin: *');
+echo "sjaJASDSJasd";
 if(isset($_POST['submit'])){
+    echo "posted";
     $to = "cmawoko@gmail.com"; 
     $from = $_POST['email']; 
     $full_name = $_POST['full_name'];

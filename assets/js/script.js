@@ -1,4 +1,4 @@
-
+var nodemailer = require('./lib/nodemailer/lib');
 $(document).ready(function() {
 
     // Add smooth scrolling to all links
@@ -47,21 +47,43 @@ $(document).ready(function() {
         var fullName = document.getElementById("fullName").value;
         var message = document.getElementById("message").value;
 
-        jQuery.ajax({
-            type: "POST",
-            url: 'email.php',
-            dataType: 'json',
-            data: {email: email, fullName: fullName, message: message},
-        
-            success: function (obj, textstatus) {
-                          if( !('error' in obj) ) {
-                              console.log("done")
-                          }
-                          else {
-                              console.log(obj.error);
-                          }
-                    }
-        });
+        Email.send({
+            Host : "mail.princeandlaura.com",
+            Username : "us@princeandlaura.com",
+            Password : "muchatowedu",
+            To : 'cmawoko@gmail.com',
+            From : email,
+            Subject : `RSVP for ${fullName}`,
+            Body : `<p>${message}</p>`
+        }).then(
+          res => alert(res)
+        );
+
+        // //var nodemailer = require('nodemailer');
+
+        // var transporter = nodemailer.createTransport({
+        //     host: "mail.princeandlaura.com",
+        //     port: 587,
+        //     secure: false, // upgrade later with STARTTLS
+        //     auth: {
+        //       user: "us@princeandlaura.com",
+        //       pass: "muchatowedu"
+        //     }
+        //   });
+
+        //   const mailOptions = {
+        //     from: email, // sender address
+        //     to: 'cmawoko@gmail.com', // list of receivers
+        //     subject: `RSVP for ${fullName}`, // Subject line
+        //     html: `<p>${message}</p>`// plain text body
+        //   };
+
+        //   transporter.sendMail(mailOptions, function (err, info) {
+        //     if(err)
+        //       console.log(err)
+        //     else
+        //       console.log(info);
+        //  });
         return false;
     }
     
