@@ -35,29 +35,40 @@ $(document).ready(function() {
 
     // Start mixitup
     $('#portfolio').mixItUp();
-
+    $("#success-alert").hide();
     
-
     new WOW().init();
 
     function processForm(e) {
+        
         if (e.preventDefault) e.preventDefault();
-        var email = document.getElementById("email").value;
+        var guest = document.getElementById("guest").value;
         var fullName = document.getElementById("fullName").value;
         var message = document.getElementById("message").value;
 
+        var subject = `RSVP for ${fullName}`;
+        if(guest && guest.length>0){
+            subject += ` and ${guest}`
+        }
+
+        if(fullName && fullName.length>0){
         Email.send({
             Host : "mail.princeandlaura.com",
             Username : "us@princeandlaura.com",
             Password : "muchatowedu",
             To : 'cmawoko@gmail.com',
-            From : email,
-            Subject : `RSVP for ${fullName}`,
-            Body : `<p>${message}</p>`
+            From : "us@princeandlaura.com",
+            Subject : subject,
+            Body : `<p>${message?message:"Message sent from the website"}</p>`
         }).then(
-          res => alert(res)
         );
-
+        document.getElementById("guest").value = null;
+        document.getElementById("fullName").value = null;
+        document.getElementById("message").value = null;
+        $("#success-alert").fadeTo(2000, 500).slideUp(500, function(){
+    $("#success-alert").slideUp(500);
+});
+}
         return false;
     }
     
