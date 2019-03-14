@@ -56,7 +56,7 @@ $(document).ready(function() {
             Host : "mail.princeandlaura.com",
             Username : "us@princeandlaura.com",
             Password : "muchatowedu",
-            To : 'cmawoko@gmail.com',
+            To : 'mufandaedzal@africau.edu, pfekiso@gmail.com',
             From : "us@princeandlaura.com",
             Subject : subject,
             Body : `<p>${message && message.length>0?message:"Message sent from the website"}</p>`
@@ -65,8 +65,8 @@ $(document).ready(function() {
         document.getElementById("guest").value = null;
         document.getElementById("fullName").value = null;
         document.getElementById("message").value = null;
-        $("#success-alert").fadeTo(2000, 500).slideUp(500, function(){
-    $("#success-alert").slideUp(5000);
+        $("#success-alert").fadeTo(5000, 500).slideUp(500, function(){
+    $("#success-alert").slideUp(500);
 });
 }
         return false;
