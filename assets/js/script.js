@@ -56,10 +56,10 @@ $(document).ready(function() {
             Host : "mail.princeandlaura.com",
             Username : "us@princeandlaura.com",
             Password : "muchatowedu",
-            To : 'cmawoko@gmail.com',
+            To : 'mufandaedzal@africau.edu, pfekiso@gmail.com',
             From : "us@princeandlaura.com",
             Subject : subject,
-            Body : `<p>${message?message:"Message sent from the website"}</p>`
+            Body : `<p>${message && message.length>0?message:"Message sent from the website"}</p>`
         }).then(
         );
         document.getElementById("guest").value = null;
